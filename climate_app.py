@@ -104,4 +104,4 @@ def temp_summary_start_end(start,end): #2017-08-23, 2017-09-20
     return jsonify(temp_sum_start_end)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
